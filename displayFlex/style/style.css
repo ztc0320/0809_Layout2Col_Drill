@@ -17,6 +17,9 @@ a:hover {
 ul {
     list-style: none;
 }
+.flexContainer {
+    display: flex;
+}
 /* reset  */
 /* div#wrap start */
 div#wrap {
@@ -58,6 +61,9 @@ nav#gnb {
 }
 /* nav#gnb end */
 /* div#contents start */
+div#contents {
+    flex: 1;
+}
 div#contents h2 {
     color: #bfb42f;
     font-size: 23px;
