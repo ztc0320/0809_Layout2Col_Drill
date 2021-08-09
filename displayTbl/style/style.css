@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/* reset  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: #111;
+    font-size: 14px;
+    font-weight: bold;
+}
+a:hover {
+    color: rgb(81, 128, 81);
+}
+ul {
+    list-style: none;
+}
+.dispTbl {
+    display: table;
+}
+.dispTblRow {
+    display: table-row;
+}
+.dispTblCell {
+    display: table-cell;
+}
+/* reset  */
+/* div#wrap start */
+div#wrap {
+    width: 580px;
+    margin: 0 auto;
+    border: 1px solid #999;
+}
+/* div#wrap end */
+/* header start */
+header#header {
+    padding: 6px;
+    background-color: #012219;
+}
+#header h1 {
+    color: #a4b937;
+    font-size: 28px;
+    text-align: center;
+    transform: scaleX(0.9);
+}
+#header h1 span:first-child {
+    color: #e2e3a6;
+    font-size: 70px;
+}
+#header h1 span:nth-child(2) {
+    font-size: 38px;
+}
+#header h1 span:last-child {
+    color: #a1a994;
+    font-size: 54px;
+}
+/* header end */
+
+/* main#main start */
+/* nav#gnb start */
+nav#gnb {
+    width: 146px;
+    padding: 16px;
+    /* line-height: 24px; */
+    background-color: #a4b59c;
+    vertical-align: top;
+}
+nav#gnb li {
+    line-height: 24px;
+}
+/* nav#gnb end */
+/* div#contents start */
+div#contents {
+    vertical-align: top;
+}
+/* display: table 레이아웃을 적용하면 2열 또는 3열에서 특정 영역의 내용이 세로 정렬에서 bottom정렬로 적용될 떄가 있음. 이 때 vertical-align: top을 적용하여 세로정렬에서 top정렬을 적용함 */
+div#contents h2 {
+    color: #bfb42f;
+    font-size: 23px;
+    font-family: 궁서체;
+    font-weight: normal;
+    padding: 8px;
+    padding-left: 20px;
+    background-color: #501903;
+}
+#contents p {
+    text-align: justify;
+    padding: 16px;
+}
+/* div#contents end */
+/* main#main end */
+
+/* footer#footer start */
+footer#footer {
+    font-size: 14px;
+    padding: 13px;
+    background-color: #889780;
+}
+/* footer#footer end */
