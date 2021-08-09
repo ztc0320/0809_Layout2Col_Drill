@@ -50,14 +50,36 @@ header#header {
 /* header end */
 
 /* main#main start */
+main#main {
+    position: relative;
+    height: 389px;
+    /* 적용 2 */
+}
 /* nav#gnb start */
 nav#gnb {
+    width: 140px;
+    height: 389px;
     padding: 20px;
     line-height: 24px;
     background-color: #a4b59c;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 /* nav#gnb end */
 /* div#contents start */
+
+/* div#contents {
+    margin-left: 140px;
+} */
+/* 적용 1 */
+div#contents {
+    width: 438px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/* 적용 2 */
 div#contents h2 {
     color: #bfb42f;
     font-size: 23px;
